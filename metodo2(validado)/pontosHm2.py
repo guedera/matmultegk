@@ -1,6 +1,6 @@
 import numpy as np
 
-def encontrar_zeros(f, inicio=0, fim=4*np.pi, passo=0.001, tolerancia=1e-2):
+def encontrar_zeros(f, inicio=0, fim=4*np.pi, passo=0.0001, tolerancia=1e-3):
     zeros = []
     ultimo_zero = None
     
