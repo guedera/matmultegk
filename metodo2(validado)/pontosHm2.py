@@ -16,7 +16,7 @@ def encontrar_zeros(f, inicio=0, fim=4*np.pi, passo=0.0001, tolerancia=1e-3):
     print(f"Valores de t onde f(t) = 0 (aproximadamente): {zeros}")
     return zeros
 
-# Exemplo de uso com a função fornecida
 f = lambda t: (5 * np.cos(t) - 10 * np.cos(5 * t / 2))
 
 encontrar_zeros(f)
+

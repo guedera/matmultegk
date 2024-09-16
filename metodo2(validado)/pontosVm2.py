@@ -12,11 +12,11 @@ def encontrar_zeros(f, inicio=0, fim=4*np.pi, passo=0.0001, tolerancia=1e-3):
                 zeros.append(round(t, 3))  # Arredonda para 3 casas decimais
                 ultimo_zero = t
     
-    # Exibe os resultados formatados com 3 casas decimais
+    #Exibe os resultados formatados com 3 casas decimais
     print(f"Valores de t onde f(t) = 0 (aproximadamente): {zeros}")
     return zeros
 
-# Exemplo de uso com a função fornecida
 f = lambda t: (-5*np.sin(t) + 10*np.sin(5*t/2))
 
 encontrar_zeros(f)
+
